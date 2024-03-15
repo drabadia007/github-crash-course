@@ -7,3 +7,7 @@ const newFeature = () => {
 const movieFilter = (filter) => {
   console.log(filter);
 };
+
+const featureB = () => {
+  console.log("feature B");
+};
