@@ -11,3 +11,8 @@ const movieFilter = (filter) => {
 const featureB = () => {
   console.log("feature B");
 };
+
+const addToCart = (obj) => {
+  const cart = [...cart, obj];
+  console.log(cart);
+};
